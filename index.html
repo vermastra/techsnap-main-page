@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <nav class=" container-fluid navbar navbar-expand-lg navbar-light  ">
+        <div class="container ">
+            <h1><a style="font-size: 25px;color: var(--nav-col); padding: 0;" class="navbar-brand" href="#">TechSnap</a>
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <h6><a style="color: var( --text-col);" class="nav-link active" aria-current="page"
+                                href="#">HOME</a></h6>
+                    </li>
+                    <li class="nav-item">
+                        <h6><a style="color: var( --text-col);" class="nav-link active" href="#">ABOUT US</a></h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="theme">
+        <img id="toggle" src="./moon.png" alt="">
+    </div>
+    <div class="container ">
+        <div class="block">
+            <div class="content">
+                <h1><span style="color: #ff1493;">FREE</span> PROJECTS AND <br> TUTORIALS</h1>
+                <p>Here, on TechSnap we provide some efficient courses, projects, tutorials to enhance your knowledge on
+                    most in-demand technologies and get your skills to stay ahead!</p>
+                <button><a href="#courses">EXPLORE</a></button>
+            </div>
+            <div class="img">
+                <img class="gif" src="https://i.pinimg.com/originals/01/32/31/01323190cd6933de96287a5804fd636a.gif"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="explore" id="courses">
+            <h1>COURSES</h1>
+            <p>Taking up a course is important to improve performance in your career. Also, allows you
+                put your skills and experience on paper, which will strengthen your resume. Choosing a
+                right course that interests you is the course that never stops you going forward in work.
+            </p>
+            <p>So what are you waiting for? Explore our in-demand technologies based courses which may adds value to
+                your career.
+            </p>
+            <button><a href="./courses.html">GET STARTED</a></button>
+        </div>
+
+        <div class="explore">
+            <h1>PROJECTS</h1>
+            <p>Taking up courses and learning them till it ends doesn't mean learning, learning is when
+                we apply our skills on real-world problems. There comes projects, projects are where we
+                give solutions for real-time problems by applying our existing skills.
+            </p>
+            <p>It's obvious that applying helps us to enhance existing skills and possibly upgrades
+                your resume/cv, may makes our employable chances higher.
+            </p>
+            <button><a href="./projects.html">GET STARTED</a></button>
+        </div>
+
+        <div class="explore">
+            <h1>TUTORIALS</h1>
+            <p>If you are already familiar with the course that you want to improve some more, then you'll
+                not always have to go for the whole course. Tutorials are what gives you the whole gist of
+                the course by means of description or video.
+            </p>
+            <p>Easy to learn and skip to the topics where you are not confident about.
+                Let's get started with our utmost tutorials on trending skills.
+            </p>
+            <button><a href="./tutorials.html">GET STARTED</a></button>
+        </div>
+
+        <div class="card">
+            <div class="joinus">
+                <h1><span style="color: #ed0181;"> JOIN US TODAY</span></h1>
+                <h4> <span> To get access to various trending courses, projects and much more for free.</span></h4>
+                <div>
+                    <img id="no-bg" src="./img.png" alt="">
+                </div>
+            </div>
+            <form action="#">
+                <div class="login">
+                    <h3>CREATE YOUR ACCOUNT</h3>
+                    <h6><a href="#">GOOGLE</a> | <a href="#">LINKEDIN</a> | <a href="#">FACEBOOK</a></h6>
+                    <div class="form-element">
+
+                        <h6>EMAIL :</h6>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-element">
+
+                        <h6>PASSWORD :</h6>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <button class="form-element" type="submit">
+                        <h5> START LEARNING</h5>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <div class="contact ">
+            <div class="container"> Contact us :
+                <div class="socialMedia">
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Github</a>
+                    <a href="#">Dribbble</a>
+                    <a href="#">Tumblr </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+<script>
+    // const input=document.querySelectorAll("input").forEach(item=>{
+    //     item.addEventListener("select",()=>{
+    //         // item.style.borderColor="#ff1493"
+    //         item.classList.toggle("borderCol")
+    //     })
+    // })
+
+    var lastScrollTop=0;
+    navbar=document.querySelector(".navbar");
+    window.addEventListener("scroll",()=>{
+        var scrollTop=window.pageYOffset||document.documentElement.scrollTop;
+        if (scrollTop>lastScrollTop) {
+            navbar.style.top="-80px";
+        }
+        else{
+            navbar.style.top="0";
+        }
+        lastScrollTop=scrollTop;
+
+    })
+    const mood = document.getElementById("toggle")
+    mood.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mood")
+        if (document.body.classList.contains("dark-mood")) {
+            mood.src = "./sun2.jpg"
+            navbar.classList.add("navbar-dark")
+            navbar.classList.remove("navbar-light")
+        }
+        else {
+            mood.src = "./moon.png"
+            navbar.classList.add("navbar-light")
+            navbar.classList.remove("navbar-dark")
+        }
+    })
+
+</script>
+
+</html>
